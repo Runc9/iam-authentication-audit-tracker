@@ -128,7 +128,7 @@ Terraform IaC is located in the `terraform/` folder and includes:
 | **CloudWatch Logs** | Unencrypted log group                                         | KMS-encrypted log group with 90-day retention                      |
 | **IAM Policy**      | Wildcard `*` resource permission                              | Scoped to specific CloudWatch log group ARN                        |
 | **SNS Topic**       | No encryption                                                 | Encrypted with KMS                                                 |
-| **Security Tooling**| tfsec detects 15 high/med/low issues                          | tfsec passes — all high severity issues remediated                 |
+| **Security Tooling**| tfsec detects 15 high/med/low issues                          | tfsec passes all high severity issues remediated                 |
 
 > 📘 This comparison illustrates how the Terraform code was transformed from a security demo mode into a compliant, hardened infrastructure-as-code pipeline.
 
