@@ -12,7 +12,7 @@
 
 ## 📘 Overview
 
-In the world of cloud-native infrastructure, Identity and Access Management (IAM) is the first line of defense—and often the most targeted. Yet, too many organizations struggle to detect when IAM credentials are misused or abused. The **IAM Authentication Audit Tracker** simulates a real-world detection and response pipeline for IAM authentication behaviors using AWS-native services.
+In the world of cloud-native infrastructure, Identity and Access Management (IAM) is the first line of defense and often the most targeted. Yet, too many organizations struggle to detect when IAM credentials are misused or abused. The **IAM Authentication Audit Tracker** simulates a real-world detection and response pipeline for IAM authentication behaviors using AWS-native services.
 
 Built for security engineers, auditors, and GRC practitioners, this lab showcases how AWS CloudTrail, CloudWatch, and Lambda can work together to flag suspicious login patterns, enforce alerting policies, and feed audit trails into compliance reporting workflows. Whether you're preparing for a security assessment or defending a production environment, this tracker brings theory to life.
 
